@@ -546,3 +546,11 @@ func validatePolicyBGPCommunity(i interface{}, k string) (s []string, es []error
 
 	return
 }
+
+// Validation for licenses
+
+/*func validateLicenseKey(v string) schema.SchemaValidateFunc {
+	return func(i interface{}, k st)
+	m, _ := regexp.MatchString("^[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}$", v)
+	return m
+}*/
